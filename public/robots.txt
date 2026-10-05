@@ -1,0 +1,43 @@
+# robots.txt for Majid Arain — Digital Architecture & Growth Partner
+# Website: https://majid-portfolio.dev
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Targeted rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Image indexing rules
+User-agent: Googlebot-Image
+Allow: /
+Allow: /assets/
+Allow: /favicon.svg
+
+# Targeted rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Targeted rules for Applebot
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Targeted rules for DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+
+# Host configuration
+Host: https://majid-portfolio.dev
+
+# XML Sitemap canonical path
+Sitemap: https://majid-portfolio.dev/sitemap.xml
